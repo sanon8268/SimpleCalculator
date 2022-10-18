@@ -5,6 +5,7 @@
      let clear = document.querySelector('.btncolor5');
      let equal = document.querySelector('.btncolor4');
      let root = document.querySelector('.btn3');
+     let x= document.querySelector('.btn-x');
 
 
      buttons.forEach(function(button){
@@ -39,6 +40,12 @@
        
 
      })
+
+     x.addEventListener('click',function(e){
+       
+      screen.value = screen.value.slice(0,-1);
+
+     } )
 
 
 })();

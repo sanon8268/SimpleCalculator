@@ -76,6 +76,16 @@ form input {
     transition: .2s ease-in-out;
 }
 
+.btn-x{
+    color: #ff1616;
+    background-color: rgb(205, 205, 205);
+}
+
+.btn-x:hover{
+    background-color: #ff1616;
+    color: rgb(205, 205, 205);
+}
+
 
 .btn2 {
     margin: 5px 0;
